@@ -18,7 +18,7 @@ int main()
 
     SDL_FreeSurface(screen_surface);
 
-    Uint32 pixel = get_pixel(image_surface, i, j);
+    Uint32 pixel = get_pixel(image_surface, 0, 0);
     Uint8 r, g, b;
     SDL_GetRGB(pixel, image_surface->format, &r, &g, &b);
 
@@ -31,3 +31,4 @@ int main()
     printf("%i\n", num3);
 
 }
+

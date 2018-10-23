@@ -64,3 +64,5 @@ SDL_Surface* display_image(SDL_Surface *img)
     // return the screen for further uses
     return screen;
 }
+
+
